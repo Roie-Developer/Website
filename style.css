@@ -8,12 +8,9 @@
     --clr: #222327;
 }
 
-
-/* body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+body {
+    background-color: rgb(239, 245, 250);
+}
 
 .navigation {
     margin: 50px;
