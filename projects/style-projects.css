@@ -152,3 +152,14 @@ body {
         padding-top: 10px;
     }
 }
+
+
+/**Links**/
+
+.navbar-project-links li .java-script-project {
+    display: none;
+}
+
+.navbar-project-links li:hover .java-script-project {
+    display: block;
+}

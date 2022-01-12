@@ -8,6 +8,8 @@ const navbarProjectLinks = document.getElementsByClassName(
     "navbar-project-links"
 )[0];
 
+const quoteButton = document.getElementById("quote-game");
+
 //Menu bar
 
 toggleButton.addEventListener("click", (e) => {
@@ -24,4 +26,10 @@ toggleProjectButton.addEventListener("click", (e) => {
         navbarLinks.classList.toggle("active");
     }
     navbarProjectLinks.classList.toggle("active");
+});
+
+//Quote game button listener
+
+quoteButton.addEventListener("click", () => {
+    location.href = "https://roie-developer.github.io/Quote-Generator/";
 });
