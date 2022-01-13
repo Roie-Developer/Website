@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    text-decoration: underline black;
+}
+
+[class*="title"] {
+    font-family: montserrat, "Ariel";
+    font-size: 24px;
+}

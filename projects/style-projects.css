@@ -154,7 +154,7 @@ body {
 }
 
 
-/**Links**/
+/**Project link buttons**/
 
 .navbar-project-links li .java-script-project {
     display: none;
@@ -162,4 +162,11 @@ body {
 
 .navbar-project-links li:hover .java-script-project {
     display: block;
+}
+
+.java-script-project {
+    width: 100%;
+    color: black;
+    background-color: ;
+    border-radius: 10px;
 }
