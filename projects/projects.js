@@ -4,12 +4,13 @@ const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 const toggleProjectButton = document.getElementsByClassName(
     "toggle-project-button"
 )[0];
+const quoteButton = document.getElementById("quote-game");
 const navbarProjectLinks = document.getElementsByClassName(
     "navbar-project-links"
 )[0];
-const assemblyProject = document.getElementsByClassName("assembly-project");
-
-const quoteButton = document.getElementById("quote-game");
+const assemblyProject = document.querySelector(".assembly-project");
+const downloadCalculator = document.querySelector(".java-project-download");
+const javaCodeCalculator = document.querySelector(".java-project-code");
 
 //Menu bar
 
@@ -29,7 +30,7 @@ toggleProjectButton.addEventListener("click", (e) => {
     navbarProjectLinks.classList.toggle("active");
 });
 
-//Quote game button listener
+//Adding button listeners
 
 quoteButton.addEventListener("click", () => {
     location.href = "https://roie-developer.github.io/Quote-Generator/";
@@ -37,4 +38,14 @@ quoteButton.addEventListener("click", () => {
 
 assemblyProject.addEventListener("click", () => {
     location.href = "https://github.com/Roie-Developer/C-Assembly-Project";
+});
+
+downloadCalculator.addEventListener("click", () => {
+    location.href =
+        "https://github.com/Roie-Developer/Java_Programs/raw/master/RunableCalculator.jar";
+});
+
+javaCodeCalculator.addEventListener("click", () => {
+    location.href =
+        "https://github.com/Roie-Developer/Java_Programs/tree/master/myCalculator/src/calculator";
 });

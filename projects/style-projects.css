@@ -103,7 +103,8 @@ body {
 }
 
 .navbar-project-links li:hover {
-    background-color: gray;
+    background-color: rgb(23, 99, 241);
+    border-radius: 10px;
 }
 
 .toggle-project-button {
@@ -117,7 +118,7 @@ body {
 }
 
 .toggle-project-button .project-bar {
-    height: 3px;
+    height: 10px;
     width: 100%;
     background-color: black;
     border-radius: 10px;
@@ -166,7 +167,20 @@ body {
 
 .navbar-project-links li button {
     width: 100%;
-    color: black;
+    height: 40px;
     background-color: white;
     border-radius: 10px;
+}
+
+.java-calculator button {
+    margin-bottom: 5px;
+}
+
+.navbar-project-links button:hover {
+    background-color: rgb(156, 125, 185);
+}
+
+.java-calculator {
+    border-color: white;
+    border-width: 5px;
 }
