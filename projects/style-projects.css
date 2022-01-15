@@ -156,17 +156,17 @@ body {
 
 /**Project link buttons**/
 
-.navbar-project-links li .java-script-project {
-    display: none;
-}
-
-.navbar-project-links li:hover .java-script-project {
+.navbar-project-links li:hover button {
     display: block;
 }
 
-.java-script-project {
+.navbar-project-links li button {
+    display: none;
+}
+
+.navbar-project-links li button {
     width: 100%;
     color: black;
-    background-color: ;
+    background-color: white;
     border-radius: 10px;
 }

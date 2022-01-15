@@ -7,6 +7,7 @@ const toggleProjectButton = document.getElementsByClassName(
 const navbarProjectLinks = document.getElementsByClassName(
     "navbar-project-links"
 )[0];
+const assemblyProject = document.getElementsByClassName("assembly-project");
 
 const quoteButton = document.getElementById("quote-game");
 
@@ -32,4 +33,8 @@ toggleProjectButton.addEventListener("click", (e) => {
 
 quoteButton.addEventListener("click", () => {
     location.href = "https://roie-developer.github.io/Quote-Generator/";
+});
+
+assemblyProject.addEventListener("click", () => {
+    location.href = "https://github.com/Roie-Developer/C-Assembly-Project";
 });
