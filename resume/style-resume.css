@@ -1,9 +1,35 @@
 h1 {
+    font-family: italic;
+}
+
+h2 {
+    text-align: left;
+}
+
+body {
+    margin: 10px 5%;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+h1 {
     text-align: center;
     text-decoration: underline black;
 }
 
 [class*="title"] {
-    font-family: montserrat, "Ariel";
+    font-family: arial;
     font-size: 24px;
+}
+
+.image-container {
+    margin: 10px 5%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 20px;
 }
