@@ -118,9 +118,9 @@ body {
 }
 
 .toggle-project-button .project-bar {
-    height: 10px;
+    height: 2px;
     width: 100%;
-    background-color: black;
+    background-color: white;
     border-radius: 10px;
 }
 
