@@ -10,7 +10,6 @@ const navbarProjectLinks = document.getElementsByClassName(
 )[0];
 const assemblyProject = document.querySelector(".assembly-project");
 const downloadCalculator = document.querySelector(".java-project-download");
-const javaCodeCalculator = document.querySelector(".java-project-code");
 
 //Menu bar
 
@@ -43,9 +42,4 @@ assemblyProject.addEventListener("click", () => {
 downloadCalculator.addEventListener("click", () => {
     location.href =
         "https://github.com/Roie-Developer/Java_Programs/raw/master/RunableCalculator.jar";
-});
-
-javaCodeCalculator.addEventListener("click", () => {
-    location.href =
-        "https://github.com/Roie-Developer/Java_Programs/tree/master/myCalculator/src/calculator";
 });
