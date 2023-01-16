@@ -1,4 +1,5 @@
 "use strict";
+//Temp
 const list = document.querySelectorAll(".list");
 const twitter = document.querySelector(".twitter-button");
 const instagram = document.querySelector(".instagram-button");
